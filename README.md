@@ -17,7 +17,7 @@ Player 2 use ← and → for lateral movements
             be changed to your local directory, 
             both the HTML and downloadable file  
             needs to be present in the same directory -->
-         <a href="https://github.com/Ezhilvel/AirHockey/blob/master/Downloads/" download="AirHockey.zip"> 
+         <a href="https://github.com/Ezhilvel/AirHockey/raw/master/AirHockey.zip" download="AirHockey.zip"> 
          <button type="button">Download the game</button> 
          </a> 
    </body> 
