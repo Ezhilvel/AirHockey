@@ -1,24 +1,10 @@
 # AirHockey
 
+This game is built using <a href="https://love2d.org/" download="AirHockey.zip"> LÖVE </a>. LÖVE is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.
+
+You can <a href="https://github.com/Ezhilvel/AirHockey/raw/master/AirHockey.zip" download="AirHockey.zip"> 
+<button type="button">Download</button> </a> the game here. For platforms other than MacOS please download the <a href="https://love2d.org/" download="AirHockey.zip"> LÖVE </a> engine to play the game.
+
 Player 1 use 'A' and 'D' for lateral movements
 
 Player 2 use ← and → for lateral movements
-
-
-<!DOCTYPE html> 
-<html> 
-   <body> 
-      <p> 
-         <!-- GFG is the name of the  
-            file to be downloaded-->
-         <!-- In order to run the code,  
-            the location of the file  
-            "geeksforgeeks.png" needs to  
-            be changed to your local directory, 
-            both the HTML and downloadable file  
-            needs to be present in the same directory -->
-         <a href="https://github.com/Ezhilvel/AirHockey/raw/master/AirHockey.zip" download="AirHockey.zip"> 
-         <button type="button">Download the game</button> 
-         </a> 
-   </body> 
-</html> 
