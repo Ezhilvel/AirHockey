@@ -79,10 +79,10 @@ end
 
 -- Platform
 local platform = {}
-platform.width = 100
+platform.width = 70
 platform.height = 10
 platform.position_x = 500
-platform.position_y = love.graphics.getHeight()- 50 - platform.height
+platform.position_y = love.graphics.getHeight()- 30 - platform.height
 platform.speed_x = 400
 
 
@@ -105,10 +105,10 @@ end
 
 -- Platform2
 local platform2 = {}
-platform2.width = 100
+platform2.width = 70
 platform2.height = 10
 platform2.position_x = 600
-platform2.position_y = 40
+platform2.position_y = 30
 platform2.speed_x = 400
 
 function platform2.update( dt )
@@ -267,12 +267,9 @@ function love.draw()
 
    love.graphics.print({"score A: ",scoreA}, love.graphics.getWidth()/2-50, love.graphics.getHeight()/2-50)
    love.graphics.print({"score B: ",scoreB}, love.graphics.getWidth()/2+50, love.graphics.getHeight()/2+50)
-   love.graphics.print({"Player 1 \nKeys: A - D"}, love.graphics.getWidth()-150, 10)
-   love.graphics.print({"Player 2 \nKeys: Arrow Keys"}, love.graphics.getWidth()-150, love.graphics.getHeight()-50)
    love.graphics.print(ball.tap, love.graphics.getWidth()/2, love.graphics.getHeight()/2)
-   love.graphics.print({"Speed X: ",ball.speed_x, "\nSpeed Y: ", ball.speed_y}, 30, 10)
+   love.graphics.print({"Speed X: ",ball.speed_x, "\nSpeed Y: ", ball.speed_y}, 50, 50)
 end
-
 
 love.window.setTitle( "Paddle Strike" )
 
