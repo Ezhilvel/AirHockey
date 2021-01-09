@@ -107,7 +107,7 @@ end
 local platform2 = {}
 platform2.width = 70
 platform2.height = 10
-platform2.position_x = 600
+platform2.position_x = 500
 platform2.position_y = 30
 platform2.speed_x = 400
 
